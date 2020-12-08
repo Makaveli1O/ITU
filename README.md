@@ -6,8 +6,11 @@
 
 ``` bash
 # install dependencies
-npm install
+make install
 
 # start with expo(AndroidStudio/Xcode simulators required) or start app on your phone via QR code
-expo start
+make run
+
+#remove independencies(large node_modules)
+make clean
 ```
